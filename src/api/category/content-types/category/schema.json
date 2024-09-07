@@ -48,14 +48,6 @@
       },
       "type": "uid",
       "targetField": "name"
-    },
-    "form_submit_email": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "string"
     }
   }
 }

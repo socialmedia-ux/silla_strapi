@@ -829,12 +829,6 @@ export interface ApiCategoryCategory extends Schema.CollectionType {
           localized: true;
         };
       }>;
-    form_submit_email: Attribute.String &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: false;
-        };
-      }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -865,6 +859,7 @@ export interface ApiContactusContactus extends Schema.SingleType {
     singularName: 'contactus';
     pluralName: 'contactuses';
     displayName: 'contactus';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -936,6 +931,12 @@ export interface ApiContactusContactus extends Schema.SingleType {
         };
       }>;
     mobile2: Attribute.String &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
+    form_submit_email: Attribute.String &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: false;

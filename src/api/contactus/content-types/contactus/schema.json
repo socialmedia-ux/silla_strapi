@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contactus",
     "pluralName": "contactuses",
-    "displayName": "contactus"
+    "displayName": "contactus",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -96,6 +97,14 @@
       "type": "string"
     },
     "mobile2": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
+    },
+    "form_submit_email": {
       "pluginOptions": {
         "i18n": {
           "localized": false
