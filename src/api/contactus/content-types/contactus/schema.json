@@ -10,106 +10,66 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "image": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
+      "pluginOptions": {},
       "type": "string"
     },
-    "label": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+    "label_ar": {
+      "pluginOptions": {},
       "type": "string"
     },
     "twitter": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
+      "pluginOptions": {},
       "type": "string"
     },
     "snapchat": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
+      "pluginOptions": {},
       "type": "string"
     },
     "instagram": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
+      "pluginOptions": {},
       "type": "string"
     },
-    "address1": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+    "address1_ar": {
+      "pluginOptions": {},
       "type": "string"
     },
-    "address2": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+    "address2_ar": {
+      "pluginOptions": {},
       "type": "string"
     },
     "email1": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
+      "pluginOptions": {},
       "type": "string"
     },
     "email2": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
+      "pluginOptions": {},
       "type": "string"
     },
     "mobile1": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
+      "pluginOptions": {},
       "type": "string"
     },
     "mobile2": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
+      "pluginOptions": {},
       "type": "string"
     },
     "form_submit_email": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "label_en": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "address1_en": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "address2_en": {
+      "pluginOptions": {},
       "type": "string"
     }
   }

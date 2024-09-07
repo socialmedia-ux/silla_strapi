@@ -4,31 +4,28 @@
   "info": {
     "singularName": "footer",
     "pluralName": "footers",
-    "displayName": "footer"
+    "displayName": "footer",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
-    "top_text": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+    "top_text_ar": {
+      "pluginOptions": {},
       "type": "text"
     },
-    "bottom_text": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+    "bottom_text_ar": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "top_text_en": {
+      "pluginOptions": {},
+      "type": "text"
+    },
+    "bottom_text_en": {
+      "pluginOptions": {},
       "type": "string"
     }
   }

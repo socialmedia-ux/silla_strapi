@@ -4,56 +4,45 @@
   "info": {
     "singularName": "slider",
     "pluralName": "sliders",
-    "displayName": "slider"
+    "displayName": "slider",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
-    "title": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+    "title_ar": {
+      "pluginOptions": {},
       "type": "string"
     },
-    "description": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+    "description_ar": {
+      "pluginOptions": {},
       "type": "text"
     },
-    "cta_label": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+    "cta_label_ar": {
+      "pluginOptions": {},
       "type": "string"
     },
     "image": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
+      "pluginOptions": {},
       "type": "string"
     },
     "cta_url": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
+      "pluginOptions": {},
       "type": "string"
+    },
+    "title_en": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "cta_label_en": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "description_en": {
+      "pluginOptions": {},
+      "type": "text"
     }
   }
 }

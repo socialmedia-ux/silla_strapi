@@ -10,34 +10,26 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "image": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
+      "pluginOptions": {},
       "type": "string"
     },
-    "text": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+    "text_ar": {
+      "pluginOptions": {},
       "type": "text"
     },
-    "features": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+    "features_ar": {
+      "pluginOptions": {},
+      "type": "json"
+    },
+    "text_en": {
+      "pluginOptions": {},
+      "type": "text"
+    },
+    "features_en": {
+      "pluginOptions": {},
       "type": "json"
     }
   }

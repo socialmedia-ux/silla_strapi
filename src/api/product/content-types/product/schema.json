@@ -10,26 +10,14 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "image": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
+      "pluginOptions": {},
       "type": "string"
     },
-    "name": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+    "name_ar": {
+      "pluginOptions": {},
       "type": "string"
     },
     "category": {
@@ -38,78 +26,51 @@
       "target": "api::category.category"
     },
     "code": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
+      "pluginOptions": {},
       "type": "string"
     },
-    "story": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+    "story_ar": {
+      "pluginOptions": {},
       "type": "text"
     },
     "dimensions_image": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
+      "pluginOptions": {},
       "type": "string"
     },
-    "features": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+    "features_ar": {
+      "pluginOptions": {},
       "type": "json"
     },
     "image2": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
+      "pluginOptions": {},
       "type": "string"
     },
     "image3": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
+      "pluginOptions": {},
       "type": "string"
     },
     "image4": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
+      "pluginOptions": {},
       "type": "string"
     },
     "isFeatured": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
+      "pluginOptions": {},
       "type": "boolean",
       "default": false
     },
     "slug": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
+      "pluginOptions": {},
       "type": "string",
       "required": true
+    },
+    "name_en": {
+      "type": "string"
+    },
+    "story_en": {
+      "type": "string"
+    },
+    "features_en": {
+      "type": "json"
     }
   }
 }
