@@ -5,9 +5,8 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      enabled: true, // deprecated in v4.25.8
-      headers: '*',
-      origin: ['https://kps.gfl.temporary.site/']
+      enabled: true, 
+      origin: ['*']
     }
   },
   'strapi::poweredBy',
