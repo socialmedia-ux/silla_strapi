@@ -823,10 +823,11 @@ export interface ApiCategoryCategory extends Schema.CollectionType {
           localized: false;
         };
       }>;
-    slug: Attribute.UID<'api::category.category', 'name'> &
+    slug: Attribute.String &
+      Attribute.Required &
       Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     createdAt: Attribute.DateTime;
@@ -1083,6 +1084,7 @@ export interface ApiProductProduct extends Schema.CollectionType {
     singularName: 'product';
     pluralName: 'products';
     displayName: 'product';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -1159,10 +1161,11 @@ export interface ApiProductProduct extends Schema.CollectionType {
         };
       }> &
       Attribute.DefaultTo<false>;
-    slug: Attribute.UID<'api::product.product', 'name'> &
+    slug: Attribute.String &
+      Attribute.Required &
       Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     createdAt: Attribute.DateTime;
