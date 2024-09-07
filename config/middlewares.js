@@ -1,4 +1,12 @@
 module.exports = [
+  {
+    settings: {
+      cors: {
+        enabled: true,
+        origin: ['*'] // Or specify the domain
+      },
+    }
+  },
   'strapi::logger',
   'strapi::errors',
   'strapi::security',
