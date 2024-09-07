@@ -817,10 +817,10 @@ export interface ApiCategoryCategory extends Schema.CollectionType {
           localized: false;
         };
       }>;
-    parent_slug: Attribute.String &
+    parent: Attribute.String &
       Attribute.SetPluginOptions<{
         i18n: {
-          localized: false;
+          localized: true;
         };
       }>;
     slug: Attribute.String &
