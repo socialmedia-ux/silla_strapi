@@ -1,20 +1,20 @@
 module.exports = [
-  {
-    settings: {
-      cors: {
-        enabled: true,
-        origin: ['*'] // Or specify the domain
-      },
-    }
-  },
   'strapi::logger',
   'strapi::errors',
   'strapi::security',
-  'strapi::cors',
+  {
+    name: 'strapi::cors',
+    config: {
+      enabled: true, // deprecated in v4.25.8
+      headers: '*',
+      origin: ['https://kps.gfl.temporary.site/']
+    }
+  },
   'strapi::poweredBy',
   'strapi::query',
   'strapi::body',
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
+
 ];
