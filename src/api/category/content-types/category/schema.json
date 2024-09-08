@@ -20,19 +20,16 @@
       "type": "string",
       "pluginOptions": {}
     },
-    "parent_ar": {
-      "type": "string",
-      "pluginOptions": {}
-    },
     "slug": {
       "pluginOptions": {},
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "name_en": {
       "type": "string"
     },
-    "parent_en": {
+    "parent_slug": {
       "type": "string"
     }
   }

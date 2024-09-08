@@ -802,10 +802,9 @@ export interface ApiCategoryCategory extends Schema.CollectionType {
   attributes: {
     name_ar: Attribute.String;
     image: Attribute.String;
-    parent_ar: Attribute.String;
-    slug: Attribute.String & Attribute.Required;
+    slug: Attribute.String & Attribute.Required & Attribute.Unique;
     name_en: Attribute.String;
-    parent_en: Attribute.String;
+    parent_slug: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
