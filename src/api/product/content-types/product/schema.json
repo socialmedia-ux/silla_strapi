@@ -41,18 +41,6 @@
       "pluginOptions": {},
       "type": "json"
     },
-    "image2": {
-      "pluginOptions": {},
-      "type": "string"
-    },
-    "image3": {
-      "pluginOptions": {},
-      "type": "string"
-    },
-    "image4": {
-      "pluginOptions": {},
-      "type": "string"
-    },
     "isFeatured": {
       "pluginOptions": {},
       "type": "boolean",
@@ -67,9 +55,12 @@
       "type": "string"
     },
     "story_en": {
-      "type": "string"
+      "type": "text"
     },
     "features_en": {
+      "type": "json"
+    },
+    "images": {
       "type": "json"
     }
   }

@@ -960,14 +960,12 @@ export interface ApiProductProduct extends Schema.CollectionType {
     story_ar: Attribute.Text;
     dimensions_image: Attribute.String;
     features_ar: Attribute.JSON;
-    image2: Attribute.String;
-    image3: Attribute.String;
-    image4: Attribute.String;
     isFeatured: Attribute.Boolean & Attribute.DefaultTo<false>;
     slug: Attribute.String & Attribute.Required;
     name_en: Attribute.String;
-    story_en: Attribute.String;
+    story_en: Attribute.Text;
     features_en: Attribute.JSON;
+    images: Attribute.JSON;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
