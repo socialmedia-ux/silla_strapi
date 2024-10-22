@@ -961,7 +961,7 @@ export interface ApiProductProduct extends Schema.CollectionType {
     dimensions_image: Attribute.String;
     features_ar: Attribute.JSON;
     isFeatured: Attribute.Boolean & Attribute.DefaultTo<false>;
-    slug: Attribute.String & Attribute.Required;
+    slug: Attribute.String & Attribute.Required & Attribute.Unique;
     name_en: Attribute.String;
     story_en: Attribute.Text;
     features_en: Attribute.JSON;
