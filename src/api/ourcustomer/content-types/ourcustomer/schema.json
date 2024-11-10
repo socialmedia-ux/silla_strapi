@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "ourcustomers",
+  "info": {
+    "singularName": "ourcustomer",
+    "pluralName": "ourcustomers",
+    "displayName": "ourcustomer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "data": {
+      "type": "json"
+    }
+  }
+}

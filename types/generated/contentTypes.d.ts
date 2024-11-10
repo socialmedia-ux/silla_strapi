@@ -823,36 +823,6 @@ export interface ApiCategoryCategory extends Schema.CollectionType {
   };
 }
 
-export interface ApiClientSliderClientSlider extends Schema.SingleType {
-  collectionName: 'client_sliders';
-  info: {
-    singularName: 'client-slider';
-    pluralName: 'client-sliders';
-    displayName: 'ClientSlider';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  attributes: {
-    clients: Attribute.JSON & Attribute.Required;
-    createdAt: Attribute.DateTime;
-    updatedAt: Attribute.DateTime;
-    publishedAt: Attribute.DateTime;
-    createdBy: Attribute.Relation<
-      'api::client-slider.client-slider',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-    updatedBy: Attribute.Relation<
-      'api::client-slider.client-slider',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-  };
-}
-
 export interface ApiContactusContactus extends Schema.SingleType {
   collectionName: 'contactuses';
   info: {
@@ -967,6 +937,36 @@ export interface ApiOurStoryOurStory extends Schema.SingleType {
   };
 }
 
+export interface ApiOurcustomerOurcustomer extends Schema.SingleType {
+  collectionName: 'ourcustomers';
+  info: {
+    singularName: 'ourcustomer';
+    pluralName: 'ourcustomers';
+    displayName: 'ourcustomer';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    data: Attribute.JSON;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::ourcustomer.ourcustomer',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::ourcustomer.ourcustomer',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 export interface ApiProductProduct extends Schema.CollectionType {
   collectionName: 'products';
   info: {
@@ -1071,10 +1071,10 @@ declare module '@strapi/types' {
       'plugin::users-permissions.role': PluginUsersPermissionsRole;
       'plugin::users-permissions.user': PluginUsersPermissionsUser;
       'api::category.category': ApiCategoryCategory;
-      'api::client-slider.client-slider': ApiClientSliderClientSlider;
       'api::contactus.contactus': ApiContactusContactus;
       'api::footer.footer': ApiFooterFooter;
       'api::our-story.our-story': ApiOurStoryOurStory;
+      'api::ourcustomer.ourcustomer': ApiOurcustomerOurcustomer;
       'api::product.product': ApiProductProduct;
       'api::slider.slider': ApiSliderSlider;
     }
