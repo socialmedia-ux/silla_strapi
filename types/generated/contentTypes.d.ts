@@ -823,6 +823,36 @@ export interface ApiCategoryCategory extends Schema.CollectionType {
   };
 }
 
+export interface ApiClientSliderClientSlider extends Schema.SingleType {
+  collectionName: 'client_sliders';
+  info: {
+    singularName: 'client-slider';
+    pluralName: 'client-sliders';
+    displayName: 'ClientSlider';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    clients: Attribute.JSON & Attribute.Required;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::client-slider.client-slider',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::client-slider.client-slider',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 export interface ApiContactusContactus extends Schema.SingleType {
   collectionName: 'contactuses';
   info: {
@@ -1041,6 +1071,7 @@ declare module '@strapi/types' {
       'plugin::users-permissions.role': PluginUsersPermissionsRole;
       'plugin::users-permissions.user': PluginUsersPermissionsUser;
       'api::category.category': ApiCategoryCategory;
+      'api::client-slider.client-slider': ApiClientSliderClientSlider;
       'api::contactus.contactus': ApiContactusContactus;
       'api::footer.footer': ApiFooterFooter;
       'api::our-story.our-story': ApiOurStoryOurStory;
