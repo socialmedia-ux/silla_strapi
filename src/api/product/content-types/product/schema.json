@@ -63,13 +63,6 @@
     },
     "images": {
       "type": "json"
-    },
-    "nimage": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
     }
   }
 }
