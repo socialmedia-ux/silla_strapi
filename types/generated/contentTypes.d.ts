@@ -996,6 +996,7 @@ export interface ApiProductProduct extends Schema.CollectionType {
     story_en: Attribute.Text;
     features_en: Attribute.JSON;
     images: Attribute.JSON;
+    nimage: Attribute.Media<'images'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
