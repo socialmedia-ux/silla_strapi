@@ -11,7 +11,7 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['http://localhost:5173', 'https://kps.gfl.temporary.site', 'https://woodandstone.sa'], // Add the URL of your React app
+      origin: ['http://localhost:5173', 'https://kps.gfl.temporary.site', 'https://woodandstone.sa', 'https://silla.sa'], // Add the URL of your React app
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
     },
   },
