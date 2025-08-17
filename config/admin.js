@@ -1,3 +1,4 @@
+
 module.exports = ({ env }) => ({
   auth: {
     secret: env('1fd8c1217e3121963b0706b473e67d0b'),
@@ -5,8 +6,7 @@ module.exports = ({ env }) => ({
   apiToken: {
     salt: env('02aQqVIif8QV5JVz0NDCCQ=='),
   },
-  transfer: {
-    token: {
-      salt: env('tL3pQ8+7D0kZH6zOc6JxfQ=='),
-    },
+  transferToken: {
+    salt: env('tL3pQ8+7D0kZH6zOc6JxfQ=='),
+  },
 });
